@@ -8,6 +8,8 @@ const Header = styled.header`
   right: 0;
   height: 70px;
   border-bottom: 1px solid #dee2e6;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
   z-index: 1010;
 `;
 
