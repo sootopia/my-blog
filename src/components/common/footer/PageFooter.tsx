@@ -33,7 +33,7 @@ const PageFooter = () => {
   return (
     <Footer>
       <div className="container flex justify-between items-center">
-        <p>&copy; 2024. Park Soohyun All rights reserved.</p>
+        <p className="text-slate-700">&copy; 2024. Park Soohyun All rights reserved.</p>
 
         <LinkGroup>
           <a href="https://github.com/sootopia" target="_blank" rel="noopener noreferrer">
