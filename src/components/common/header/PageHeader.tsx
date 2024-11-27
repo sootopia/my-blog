@@ -29,7 +29,7 @@ const Logo = styled.div`
       'Helvetica Neue',
       sans-serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000;
     gap: 16px;
     align-items: center;
@@ -38,7 +38,7 @@ const Logo = styled.div`
   span {
     display: inline-block;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #475569;
     line-height: 1.2;
     padding: 4px 8px;
@@ -60,6 +60,10 @@ const Navbar = styled.nav`
     a {
       font-weight: 500;
       color: #475569;
+
+      &:hover:not(.active) {
+        opacity: 0.5;
+      }
 
       &.active {
         font-weight: 700;
